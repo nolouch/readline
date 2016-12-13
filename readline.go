@@ -34,8 +34,7 @@ package readline
 
 /*
 
-#cgo darwin CFLAGS: -I/usr/local/opt/readline/include
-#cgo darwin LDFLAGS: -L/usr/local/opt/readline/lib
+#cgo darwin CFLAGS: -I inner
 #cgo LDFLAGS: -lreadline -lhistory
 
 #include <stdio.h>
